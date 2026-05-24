@@ -1,0 +1,114 @@
+aid: ambi-robotics
+name: Ambi Robotics
+description: >-
+  Ambi Robotics is a Berkeley, California AI robotics company building
+  parcel-sortation and induction robots for ecommerce, postal, and
+  logistics workflows. Founded in 2018 as Ambidextrous Laboratories — a
+  spin-out of UC Berkeley's Dex-Net Project led by Ken Goldberg — by
+  Jeff Mahler (CTO), Stephen McKinley, David Gealy, and Matt Matl, with
+  Jim Liefer (ex-Walmart, ex-UPS) as CEO. Its flagship products are
+  AmbiSort A-Series (sort-to-sack small parcel sorting), AmbiSort
+  B-Series (sort-to-gaylord parcel induction for middle-mile and
+  reverse logistics), AmbiStack (mixed-case stacking for inbound and
+  outbound), and AmbiVision (3D dimensioning, OCR, defect detection,
+  and visual quality inspection). All robots run AmbiOS, the company's
+  cloud-native "operating system for physical intelligence,"
+  comprising the AI Skill Suite (Sort, Stack, Kit, Pack, Induct apps),
+  the PRIME-1 foundation model trained on millions of real-world
+  operations, AmbiVision perception, AmbiAccess fleet management
+  dashboard with heat maps and remote support, and a Sim2Real training
+  pipeline that compresses model training by up to 10,000x. Ambi
+  Robotics' primary commercial deployment is a $23 million expansion
+  with Pitney Bowes, with AmbiSort A-Series and B-Series systems
+  deployed across Pitney Bowes ecommerce hubs in the US (including the
+  Stockton, CA hub that nearly doubled local-direct-delivery
+  throughput in the 2021 peak holiday season, and middle-mile B-Series
+  systems that sorted more than 3 million parcels within four months
+  of deployment). Ambi Robotics does not publish a public developer
+  API, SDK, or open-source release for AmbiOS, AmbiSort, AmbiStack, or
+  PRIME-1; integration with customer WMS/WES systems is performed by
+  Ambi's solutions team. The company's public GitHub org primarily
+  contains forks of infrastructure tooling (Ray, trimesh, FCL,
+  EIPScanner, tinygltf, rapier, jszmq, CVXPYgen, mongoose-delete) and
+  internal CI/CD workflow utilities — no published API spec, SDK
+  package, or developer documentation.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Robotics
+  - AI Robotics
+  - Embodied AI
+  - Parcel Sortation
+  - Parcel Induction
+  - Logistics
+  - Last Mile
+  - Middle Mile
+  - Reverse Logistics
+  - Warehouse Automation
+  - Ecommerce Fulfillment
+  - Postal Automation
+  - Foundation Models
+  - Sim2Real
+  - Computer Vision
+  - Fleet Management
+  - AmbiOS
+  - AmbiSort
+  - AmbiStack
+  - AmbiVision
+  - PRIME-1
+  - Pitney Bowes
+  - Berkeley
+  - Hardware
+url: https://raw.githubusercontent.com/api-evangelist/ambi-robotics/refs/heads/main/apis.yml
+created: '2026-05-24'
+modified: '2026-05-24'
+specificationVersion: '0.20'
+x-tier: 3
+x-tier-reason: no-apis
+apis: []
+common:
+  - type: Website
+    url: https://www.ambirobotics.com
+  - type: Product
+    url: https://www.ambirobotics.com/ambistack
+  - type: Product
+    url: https://www.ambirobotics.com/ambisort-a-series/
+  - type: Product
+    url: https://www.ambirobotics.com/ambisort-b-series/
+  - type: Platform
+    url: https://www.ambirobotics.com/ambios
+  - type: Approach
+    url: https://www.ambirobotics.com/our-approach
+  - type: Blog
+    url: https://www.ambirobotics.com/blog/
+  - type: Resources
+    url: https://www.ambirobotics.com/resources
+  - type: Press
+    url: https://www.ambirobotics.com/press
+  - type: News
+    url: https://www.ambirobotics.com/news
+  - type: Careers
+    url: https://www.ambirobotics.com/careers/
+  - type: Contact
+    url: https://www.ambirobotics.com/contact
+  - type: Security
+    url: https://trust.ambirobotics.com/
+  - type: TermsOfService
+    url: https://www.ambirobotics.com/terms-of-service
+  - type: PrivacyPolicy
+    url: https://www.ambirobotics.com/privacy-policy
+  - type: GitHub
+    url: https://github.com/ambi-robotics
+  - type: Twitter
+    url: https://twitter.com/ambirobotics
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/ambirobotics
+  - type: YouTube
+    url: https://www.youtube.com/channel/UC3sAwwHKJrmIEULnprqc8Dg
+  - type: Instagram
+    url: https://www.instagram.com/ambirobotics
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
