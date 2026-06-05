@@ -1,0 +1,156 @@
+vocabulary:
+  name: Ambi Robotics Vocabulary
+  description: >-
+    Key industrial and manufacturing concepts used by Ambi Robotics in its
+    AI-powered parcel sortation, induction, and warehouse automation products.
+  version: "1.0.0"
+  terms:
+
+    - term: AmbiOS
+      definition: >-
+        Cloud-native "operating system for physical intelligence" that runs on
+        all Ambi Robotics hardware. Provides the AI Skill Suite, foundation
+        model inference, perception, fleet management, and the Sim2Real training
+        pipeline.
+      tags:
+        - platform
+        - operating-system
+        - robotics
+
+    - term: AmbiSort
+      definition: >-
+        AI-powered parcel sortation robot product line. The A-Series sorts small
+        parcels to sacks; the B-Series performs parcel induction to gaylords for
+        middle-mile and reverse logistics workflows.
+      tags:
+        - product
+        - sortation
+        - logistics
+
+    - term: AmbiStack
+      definition: >-
+        Mixed-case robotic stacking system for inbound and outbound warehouse
+        operations, capable of building stable pallet or gaylord loads from
+        heterogeneous parcel mixes.
+      tags:
+        - product
+        - stacking
+        - warehouse-automation
+
+    - term: AmbiVision
+      definition: >-
+        Integrated perception subsystem providing 3-D dimensioning, OCR (label
+        reading), defect detection, and visual quality inspection for parcels
+        and packages moving through automated workflows.
+      tags:
+        - perception
+        - computer-vision
+        - quality-inspection
+
+    - term: AmbiAccess
+      definition: >-
+        Fleet management dashboard enabling operators to monitor robot health,
+        view heat maps of pick activity, access remote support, and review
+        operational analytics across all deployed units.
+      tags:
+        - fleet-management
+        - dashboard
+        - monitoring
+
+    - term: PRIME-1
+      definition: >-
+        Ambi Robotics' first-generation foundation model trained on millions of
+        real-world robotic pick-and-place operations, providing generalized
+        manipulation intelligence for the AI Skill Suite.
+      tags:
+        - foundation-model
+        - machine-learning
+        - ai
+
+    - term: Sim2Real
+      definition: >-
+        Training pipeline that uses high-fidelity simulation to generate
+        synthetic robot training data, compressing model development cycles by
+        up to 10,000x compared to real-world-only data collection.
+      tags:
+        - machine-learning
+        - simulation
+        - training
+
+    - term: parcel-sortation
+      definition: >-
+        Automated process of classifying, diverting, and routing individual
+        parcels to designated sort destinations (sacks, chutes, bins) based on
+        carrier, zip code, service level, or other attributes.
+      tags:
+        - logistics
+        - sortation
+        - postal-automation
+
+    - term: parcel-induction
+      definition: >-
+        Automated feeding of parcels one-at-a-time onto a sortation conveyor or
+        into a gaylord — a prerequisite step that creates a singulated,
+        metered parcel stream for downstream sorting.
+      tags:
+        - logistics
+        - induction
+        - conveyor
+
+    - term: throughput
+      definition: >-
+        The number of parcels or picks processed by a robotic system per hour
+        (PPH). Primary performance metric for sortation and induction deployments.
+      tags:
+        - performance
+        - metrics
+        - kpi
+
+    - term: pick-rate
+      definition: >-
+        Number of successful robotic grasp-and-place operations completed per
+        unit of time, typically expressed as picks-per-hour (PPH).
+      tags:
+        - performance
+        - metrics
+        - kpi
+
+    - term: WMS
+      definition: >-
+        Warehouse Management System — enterprise software layer that manages
+        inventory, orders, and labor. Ambi Robotics integrates with customer
+        WMS platforms via Ambi's solutions team.
+      tags:
+        - integration
+        - enterprise-software
+        - warehouse
+
+    - term: WES
+      definition: >-
+        Warehouse Execution System — real-time orchestration and sequencing
+        layer sitting between WMS and physical automation equipment.
+        Ambi systems communicate task status and throughput data to WES.
+      tags:
+        - integration
+        - enterprise-software
+        - warehouse
+
+    - term: Dex-Net
+      definition: >-
+        UC Berkeley research project on deep learning for robotic grasping
+        from which Ambi Robotics was spun out in 2018. The Dex-Net grasp
+        quality metrics and dataset underpin Ambi's early AI models.
+      tags:
+        - research
+        - grasping
+        - ai
+
+    - term: reverse-logistics
+      definition: >-
+        The process of moving goods from end consumers back upstream through
+        the supply chain — returns processing, re-sorting, and re-induction —
+        a primary use case for AmbiSort B-Series deployments.
+      tags:
+        - logistics
+        - returns
+        - ecommerce

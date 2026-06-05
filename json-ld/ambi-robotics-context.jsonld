@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "ambi": "https://www.ambirobotics.com/vocab#",
+    "schema": "https://schema.org/",
+
+    "AmbiRobotics": {
+      "@id": "schema:Organization",
+      "@type": "@id"
+    },
+    "name": "schema:name",
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "description": "schema:description",
+    "foundingDate": "schema:foundingDate",
+    "foundingLocation": "schema:foundingLocation",
+    "industry": "schema:industry",
+
+    "AmbiOS": {
+      "@id": "ambi:AmbiOS",
+      "@type": "@id",
+      "comment": "Cloud-native operating system for physical intelligence powering all Ambi Robotics products"
+    },
+    "AmbiSort": {
+      "@id": "ambi:AmbiSort",
+      "@type": "@id",
+      "comment": "AI-powered parcel sortation robot product line (A-Series and B-Series)"
+    },
+    "AmbiStack": {
+      "@id": "ambi:AmbiStack",
+      "@type": "@id",
+      "comment": "Mixed-case stacking robot for inbound and outbound warehouse operations"
+    },
+    "AmbiVision": {
+      "@id": "ambi:AmbiVision",
+      "@type": "@id",
+      "comment": "3D dimensioning, OCR, defect detection, and visual quality inspection subsystem"
+    },
+    "AmbiAccess": {
+      "@id": "ambi:AmbiAccess",
+      "@type": "@id",
+      "comment": "Fleet management dashboard with heat maps and remote support capabilities"
+    },
+    "PRIME1": {
+      "@id": "ambi:PRIME-1",
+      "@type": "@id",
+      "comment": "Foundation model trained on millions of real-world robotic operations"
+    },
+    "AISkillSuite": {
+      "@id": "ambi:AISkillSuite",
+      "@type": "@id",
+      "comment": "Collection of AI applications (Sort, Stack, Kit, Pack, Induct) running on AmbiOS"
+    },
+    "Sim2Real": {
+      "@id": "ambi:Sim2Real",
+      "@type": "@id",
+      "comment": "Training pipeline compressing model training by up to 10,000x via simulation"
+    },
+    "parcelSortation": {
+      "@id": "ambi:parcelSortation",
+      "comment": "Automated classification and routing of parcels by destination or attribute"
+    },
+    "parcelInduction": {
+      "@id": "ambi:parcelInduction",
+      "comment": "Automated feeding of parcels onto sortation conveyor or gaylord systems"
+    },
+    "fleetManagement": {
+      "@id": "ambi:fleetManagement",
+      "comment": "Monitoring, control, and optimization of a deployed robot fleet"
+    },
+    "throughput": {
+      "@id": "ambi:throughput",
+      "comment": "Units (parcels) processed per hour by a robotic system"
+    },
+    "pickRate": {
+      "@id": "ambi:pickRate",
+      "comment": "Number of robotic pick-and-place operations completed per unit time"
+    },
+    "warehouseAutomation": {
+      "@id": "ambi:warehouseAutomation",
+      "comment": "Application of robotic and AI systems to fulfillment and logistics facility tasks"
+    },
+    "WMS": {
+      "@id": "ambi:WMS",
+      "comment": "Warehouse Management System — upstream software Ambi robots integrate with"
+    },
+    "WES": {
+      "@id": "ambi:WES",
+      "comment": "Warehouse Execution System — real-time orchestration layer Ambi robots integrate with"
+    }
+  }
+}
