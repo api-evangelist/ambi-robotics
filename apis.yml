@@ -69,6 +69,8 @@ x-tier: 3
 x-tier-reason: no-apis
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/ambi-robotics-domain-security.yml
   - type: Website
     url: https://www.ambirobotics.com
   - type: Product
