@@ -65,7 +65,7 @@ tags:
   - Parcel Sortation
   - Parcel Induction
   - Logistics
-  - Last Mile
+  - Last Mile Delivery
   - Middle Mile
   - Reverse Logistics
   - Warehouse Automation
@@ -73,7 +73,7 @@ tags:
   - Postal Automation
   - Foundation Models
   - Sim2Real
-  - Computer-Vision
+  - Computer Vision
   - Fleet Management
   - AmbiOS
   - AmbiSort
@@ -108,6 +108,7 @@ tags_raw:
   - Pitney Bowes
   - Berkeley
   - Hardware
+  - Computer-Vision
 url: https://raw.githubusercontent.com/api-evangelist/ambi-robotics/refs/heads/main/apis.yml
 created: '2026-05-24'
 modified: '2026-05-24'
