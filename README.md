@@ -1,4 +1,4 @@
-# ambi-robotics
+# Ambi Robotics
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Ambi Robotics — AI-powered parcel sortation and induction robots (AmbiSort A/B-Series, AmbiStack) running on AmbiOS; UC Berkeley Dex-Net spin-out deployed across Pitney Bowes ecommerce hubs. No public developer API or SDK — AmbiOS, PRIME-1, and the AI Skill Suite are proprietary.
+Ambi Robotics is a Berkeley, California AI robotics company building parcel-sortation and induction robots for ecommerce, postal, and logistics workflows. Founded in 2018 as Ambidextrous Laboratories — a spin-out of UC Berkeley's Dex-Net Project led by Ken Goldberg — by Jeff Mahler (CTO), Stephen McKinley, David Gealy, and Matt Matl, with Jim Liefer (ex-Walmart, ex-UPS) as CEO. Its flagship products are AmbiSort A-Series (sort-to-sack small parcel sorting), AmbiSort B-Series (sort-to-gaylord parcel induction for middle-mile and reverse logistics), AmbiStack (mixed-case stacking for inbound and outbound), and AmbiVision (3D dimensioning, OCR, defect detection, and visual quality inspection). All robots run AmbiOS, the company's cloud-native "operating system for physical intelligence," comprising the AI Skill Suite (Sort, Stack, Kit, Pack, Induct apps), the PRIME-1 foundation model trained on millions of real-world operations, AmbiVision perception, AmbiAccess fleet management dashboard with heat maps and remote support, and a Sim2Real training pipeline that compresses model training by up to 10,000x. Ambi Robotics' primary commercial deployment is a $23 million expansion with Pitney Bowes, with AmbiSort A-Series and B-Series systems deployed across Pitney Bowes ecommerce hubs in the US (including the Stockton, CA hub that nearly doubled local-direct-delivery throughput in the 2021 peak holiday season, and middle-mile B-Series systems that sorted more than 3 million parcels within four months of deployment). Ambi Robotics does not publish a public developer API, SDK, or open-source release for AmbiOS, AmbiSort, AmbiStack, or PRIME-1; integration with customer WMS/WES systems is performed by Ambi's solutions team. The company's public GitHub org primarily contains forks of infrastructure tooling (Ray, trimesh, FCL, EIPScanner, tinygltf, rapier, jszmq, CVXPYgen, mongoose-delete) and internal CI/CD workflow utilities — no published API spec, SDK package, or developer documentation.
+
+**Areas:** Robotics · AI Robotics · Embodied AI · Parcel Sortation · Parcel Induction · Logistics · Last Mile Delivery · Middle Mile · Reverse Logistics · Warehouse Automation · E-Commerce Fulfillment · Postal Automation
+
+## Ambi Robotics on APIs.io
+
+Everything profiled for Ambi Robotics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ambi-robotics/](https://apis.io/providers/ambi-robotics/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Ambi Robotics Context](https://apis.io/jsonld/ambi-robotics/ambi-robotics-context/)
+
+#### Vocabulary (1)
+
+The provider's domain terms, defined.
+
+- [Ambi Robotics Vocabulary](https://apis.io/vocabularies/ambi-robotics/ambi-robotics-vocabulary/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ambi Robotics Domain Security](https://apis.io/security/ambi-robotics/ambi-robotics-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.ambirobotics.com)
+- [Blog](https://www.ambirobotics.com/blog/)
+- [Security](https://trust.ambirobotics.com/)
+- [Terms of service](https://www.ambirobotics.com/terms-of-service)
+- [Privacy policy](https://www.ambirobotics.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 12.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 14.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.6** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ambi-robotics/](https://apis.io/providers/ambi-robotics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ambi Robotics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ambi-robotics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
